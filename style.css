@@ -67,6 +67,7 @@ text-shadow: 5px 5px 10px black;
     text-align: center;
     margin-top: 150px;
     margin-bottom: 80px;
+    
 }
 .donate-plan h1{
     font-size: 45px;
@@ -74,24 +75,32 @@ text-shadow: 5px 5px 10px black;
 .donate-plan p{
     color: rgba(128, 128, 128, 0.914);
 }
-.backgraund1{
+#backgraund1{
     background-color: aliceblue;
-    padding: 100px 30px;
+    padding: 40px 30px;
+    border-radius: 5px;
+    margin: 0px  30px 0px 150px;
+    
+    
 }
-.backgraund2{
+#backgraund2{
     background-color:rgba(233, 153, 233, 0.233);
-    padding: 100px 30px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    
+    
 }
-.backgraund3{
+#backgraund3{
     background-color:rgba(255, 166, 0, 0.166) ;
-    padding: 100px 30px;
-    border: 500px white;
+    padding: 10px 30px;
+   border-radius: 5px;
+    margin: 0px  150px 0px 30px;
 }
 .flexible{
     display: flex;
-    margin-top: 50px;
+    /* margin-top: 50px 50px; */
     justify-content:space-between;
-    text-align: center;
+    /* text-align: center; */
       
     
 }
