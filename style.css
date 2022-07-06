@@ -50,6 +50,7 @@ text-shadow: 5px 5px 10px black;
     color: rgb(81, 75, 75);
     align-items: center;
 }
+
 .tk{
     background-color: rgba(245, 245, 245, 0.486);
     padding: 30px;
@@ -89,30 +90,28 @@ text-shadow: 5px 5px 10px black;
     background-color: aliceblue;
     padding: 40px 30px;
     border-radius: 5px;
-    margin: 0px  30px 0px 150px;
-    
-    
+    margin: 0px  30px 0px 150px;   
 }
 #backgraund2{
     background-color:rgba(233, 153, 233, 0.233);
-    padding: 10px 30px;
-    border-radius: 5px;
-    
-    
+    padding: 40px 30px;
+    border-radius: 5px;  
 }
 #backgraund3{
     background-color:rgba(255, 166, 0, 0.166) ;
-    padding: 10px 30px;
+    padding: 40px 30px;
    border-radius: 5px;
     margin: 0px  150px 0px 30px;
 }
 .flexible{
     display: flex;
-    /* margin-top: 50px 50px; */
-    justify-content:space-between;
-    /* text-align: center; */
-      
-    
+    justify-content:space-between;  
+}
+.flexible img{
+    padding-bottom: 20px;
+}
+.flexible h1{
+    padding-bottom: 20px;
 }
 .news{
     display: flex;
@@ -165,15 +164,16 @@ margin:0px 300px 0px 0px ;
 footer{
     text-align: center;
     background-color: black;
-    color: red;
+    color: rgba(242, 108, 108, 0.93);
     padding: 50px;
 }
-footer h1{
+footer h3{
     font-family: 'Lobster', cursive;
     font-size: 35px;
 }
 footer p{
     padding: 10px;
-    font-size: 14px;
-    color: white;
+    font-size: 12px;
+    color:  rgb(210, 205, 205);
 }
+
