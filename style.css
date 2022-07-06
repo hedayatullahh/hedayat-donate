@@ -48,7 +48,6 @@ text-shadow: 5px 5px 10px black;
     color: rgb(81, 75, 75);
     align-items: center;
 }
-
 .tk{
     background-color: rgba(245, 245, 245, 0.486);
     padding: 30px;
@@ -66,30 +65,46 @@ text-shadow: 5px 5px 10px black;
     outline: none;
 }
 input{
-    padding: 10px 300px;
-    border: none;
-    outline: none;
+    padding: 10px  300px 10px 300px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px rgba(128, 128, 128, 0.663);
     color: rgba(128, 128, 128, 0.663);
     font-size: 18px;
-   -ms-text-underline-position: under;
+    outline-color:tomato ;
 }
-.line{
-    color:rgba(128, 128, 128, 0.663);
-    width: 900px;
-   padding: 0 200px;
-
+.imege-input{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 500px;
+}
+.imege-input img{
+    width: 100px;
+}
+#imege-width{
+    height: 66.53px ;
 }
 .donate-plan{
     text-align: center;
     margin-top: 150px;
-    margin-bottom: 80px;
-    
+    margin-bottom: 80px;   
 }
 .donate-plan h1{
     font-size: 45px;
 }
 .donate-plan p{
     color: rgba(128, 128, 128, 0.914);
+}
+.flexible{
+    display: flex;
+    justify-content:space-between;  
+}
+.flexible img{
+    padding-bottom: 20px;
+}
+.flexible h1{
+    padding-bottom: 20px;
 }
 #backgraund1{
     background-color: aliceblue;
@@ -107,16 +122,6 @@ input{
     padding: 40px 30px;
    border-radius: 5px;
     margin: 0px  150px 0px 30px;
-}
-.flexible{
-    display: flex;
-    justify-content:space-between;  
-}
-.flexible img{
-    padding-bottom: 20px;
-}
-.flexible h1{
-    padding-bottom: 20px;
 }
 .news{
     display: flex;
