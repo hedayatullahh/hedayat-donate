@@ -35,6 +35,11 @@ text-shadow: 5px 5px 10px black;
     padding-top: 100px;
     text-align: center;
 }
+.donate h1{
+    font-size: 45px;
+    font-weight:bold;
+    margin-bottom: 20px;
+}
 .donate-tk{
     display: flex;
     justify-content:space-around;
@@ -45,9 +50,14 @@ text-shadow: 5px 5px 10px black;
     color: rgb(81, 75, 75);
     align-items: center;
 }
+.tk{
+    background-color: rgba(245, 245, 245, 0.486);
+    padding: 30px;
+    margin: 0px 20px;
+}
 #tk2{
     border: 3px solid tomato;
-    padding: 40px;
+    padding: 30px;
     border-radius: 6px;
     color: tomato;
     background-color: rgba(220, 138, 138, 0.332);
@@ -57,7 +67,7 @@ text-shadow: 5px 5px 10px black;
     font-size: 18px;
     margin-bottom: 10px;
 }
-.fakka{
+.line{
     color:rgba(128, 128, 128, 0.663);
     width: 900px;
    padding: 0 200px;
@@ -106,12 +116,12 @@ text-shadow: 5px 5px 10px black;
 }
 .news{
     display: flex;
-    margin: 100px 200px;
+    margin: 100px 100px;
     justify-content:space-between;
     text-align:left;
 }
 .news img{
-   width:400px;
+   width:500px;
 }
 .right{
   width: 800px;
@@ -122,4 +132,48 @@ text-shadow: 5px 5px 10px black;
 .right h1{
     font-size: 40px;
     padding-bottom: 50px;
+}
+.last-pera{
+    text-align: center;
+}
+.last-pera h1{
+    font-size: 45px;
+    font-weight:bold;
+    margin-bottom: 20px;
+}
+.last-pera p{
+    color: rgba(128, 128, 128, 0.914);
+}
+.flex-background{
+text-align: center;
+display:flex;
+background-color:rgba(255, 166, 0, 0.166) ;
+padding: 70px 100px;
+margin: 100px 300px;
+}
+#single-background1{
+background-color: aliceblue;
+padding: 4px 200px 4px 10px;
+margin:0px 0px 0px 100px;
+color: rgba(128, 128, 128, 0.914);
+}
+#single-background2{
+background-color:tomato;
+padding: 7px 15px;
+margin:0px 300px 0px 0px ;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: red;
+    padding: 50px;
+}
+footer h1{
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+}
+footer p{
+    padding: 10px;
+    font-size: 14px;
+    color: white;
 }
